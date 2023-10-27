@@ -8,8 +8,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* position: fixed;
-  z-index: 1; */
 }
 nav .vertical-line {
   position: fixed;
@@ -50,8 +48,8 @@ nav #Titulo-nav {
 }
 
 .historias {
-  margin-top: -740px;
-  margin-left: 24%;
+  margin-top: -710px;
+  margin-left: 27%;
 }
 .historias img {
   position: absolute;
@@ -118,7 +116,7 @@ nav #Titulo-nav {
 .sugerencias {
   display: flex;
   flex-direction: column;
-  margin-left: 74%;
+  margin-left: 75%;
 }
 .sugerencias img {
   margin-bottom: 10px;
@@ -149,7 +147,7 @@ nav #Titulo-nav {
   text-decoration: none;
   flex-direction: column;
   margin-top: -32px;
-  margin-left: 76%;
+  margin-left: 80%;
   cursor: pointer;
 }
 .sugerencias .followCard-button:hover {
@@ -160,5 +158,5 @@ nav #Titulo-nav {
   text-decoration: none;
   flex-direction: column;
   margin-top: -34px;
-  margin-left: 76%;
+  margin-left: 80%;
 }/*# sourceMappingURL=styles.css.map */
