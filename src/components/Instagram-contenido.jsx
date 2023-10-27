@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
 import { FaRegHeart } from 'react-icons/fa'
 import { FaRegComment } from 'react-icons/fa'
@@ -17,7 +18,7 @@ export const Instagram_contenido = ({
   return (
       <>
       <div className="container">
-      <img src={userImg} alt={descImg} className="user" />
+      <img src={require({userImg}).default}  alt={descImg} className="user" />
       <h5>{`${userName} .`}</h5>
       <span>{date}</span>
       <img src={contentRoot} alt={descImgContent} />

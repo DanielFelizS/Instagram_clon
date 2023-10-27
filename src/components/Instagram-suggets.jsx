@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 
@@ -13,7 +14,7 @@ export const Instagram_suggets = ({ userImg, name, userName }) => {
 
   return (
     <div className="sugerencias">
-      <img src={userImg} alt="" />
+      <img src={require({userImg}).default} alt="" />
       <h5>{name}</h5>
       <span>@{userName}</span>
       <a href='#' className='followCard-button' onClick={handleClick}>{text}</a>
