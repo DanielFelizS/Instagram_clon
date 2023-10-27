@@ -1,0 +1,42 @@
+.container{
+    position: absolute;
+    width: 36%;
+    height: 76%;
+    margin-left: 28%;
+    margin-top: 10%;
+    img{
+        width: 92%;
+        margin-bottom: 10px;
+        height: 87%;
+    }
+    .user{
+        width: 50px;
+        height: 50px;
+        margin-left: 2%;
+        // margin-top: 2%;
+        border-radius: 100%;
+    }
+    h5{
+        position: inherit;
+        flex-direction: column;
+        margin-top: -40px;
+        margin-left: 68px;
+    }
+    span{
+        position: inherit;
+        flex-direction: column;
+        margin-top: 21px;
+        margin-left: 90px;
+    }
+}
+.media{
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    margin-left: 28%;
+    margin-top: 49%;
+    .bookMark{
+        margin-left: 81%;
+    }
+
+}

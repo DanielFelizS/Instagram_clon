@@ -1,0 +1,52 @@
+.sugerencias {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75%;
+  
+    img {
+      margin-bottom: 10px;
+      position: relative;
+      width: 60px;
+      height: 60px;
+      margin-top: 20px;
+      border-radius: 100%;
+    }
+  
+    h2 {
+      margin-top: 40px;
+    }
+  
+    h5 {
+      position: inherit;
+      flex-direction: column;
+      margin-top: -50px;
+      margin-left: 68px;
+    }
+  
+    span {
+      position: inherit;
+      color: #867777;
+      flex-direction: column;
+      margin-top: -14px;
+      margin-left: 68px;
+    }
+  
+    a {
+      color: cornflowerblue;
+      text-decoration: none;
+      flex-direction: column;
+      margin-top: -32px;
+      margin-left: 80%;
+      cursor: pointer;
+    }
+    .followCard-button:hover{
+        color: gray;
+    }
+    #Vertodo {
+      color: #444040;
+      text-decoration: none;
+      flex-direction: column;
+      margin-top: -34px;
+      margin-left: 80%;
+    }
+  }

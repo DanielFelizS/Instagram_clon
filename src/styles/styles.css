@@ -1,0 +1,164 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* position: fixed;
+  z-index: 1; */
+}
+nav .vertical-line {
+  position: fixed;
+  margin-top: 0;
+  margin-left: 13%;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+}
+nav #Más-btn {
+  margin-top: 6%;
+}
+nav .icons {
+  font-size: 24px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 10px 0;
+  /* Elimina el margen horizontal y deja solo el margen vertical */
+  padding: 10px;
+  margin-right: 65px;
+}
+nav a:hover {
+  color: #fff;
+  background-color: rgb(84, 74, 74);
+  border-radius: 10px;
+  padding-right: 65px;
+  transition: 0.2s;
+}
+nav #Titulo-nav {
+  margin: 10px 0;
+  /* Elimina el margen horizontal y deja solo el margen vertical */
+  padding-top: 20px;
+  font-style: italic;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.historias {
+  margin-top: -740px;
+  margin-left: 24%;
+}
+.historias img {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border: 3px solid gray;
+  border-radius: 100%;
+  margin-left: 16px;
+  /* Mueve las imágenes hacia la derecha */
+  margin-top: 8px;
+  /* Agrega margen superior */
+}
+.historias a {
+  display: flex;
+  float: left;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  margin-top: 80px;
+}
+
+.container {
+  position: absolute;
+  width: 36%;
+  height: 76%;
+  margin-left: 28%;
+  margin-top: 10%;
+}
+.container img {
+  width: 92%;
+  margin-bottom: 10px;
+  height: 87%;
+}
+.container .user {
+  width: 50px;
+  height: 50px;
+  margin-left: 2%;
+  border-radius: 100%;
+}
+.container h5 {
+  position: inherit;
+  flex-direction: column;
+  margin-top: -40px;
+  margin-left: 68px;
+}
+.container span {
+  position: inherit;
+  flex-direction: column;
+  margin-top: 21px;
+  margin-left: 90px;
+}
+
+.media {
+  position: absolute;
+  width: 30%;
+  height: 70%;
+  margin-left: 28%;
+  margin-top: 49%;
+}
+.media .bookMark {
+  margin-left: 81%;
+}
+
+.sugerencias {
+  display: flex;
+  flex-direction: column;
+  margin-left: 74%;
+}
+.sugerencias img {
+  margin-bottom: 10px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.sugerencias h2 {
+  margin-top: 40px;
+}
+.sugerencias h5 {
+  position: inherit;
+  flex-direction: column;
+  margin-top: -50px;
+  margin-left: 68px;
+}
+.sugerencias span {
+  position: inherit;
+  color: #867777;
+  flex-direction: column;
+  margin-top: -14px;
+  margin-left: 68px;
+}
+.sugerencias a {
+  color: cornflowerblue;
+  text-decoration: none;
+  flex-direction: column;
+  margin-top: -32px;
+  margin-left: 76%;
+  cursor: pointer;
+}
+.sugerencias .followCard-button:hover {
+  color: gray;
+}
+.sugerencias #Vertodo {
+  color: #444040;
+  text-decoration: none;
+  flex-direction: column;
+  margin-top: -34px;
+  margin-left: 76%;
+}/*# sourceMappingURL=styles.css.map */

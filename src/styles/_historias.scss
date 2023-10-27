@@ -1,0 +1,26 @@
+.historias {
+    margin-top: -710px;
+    margin-left: 27%;
+
+    img {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        border: 3px solid gray;
+        border-radius: 100%;
+        margin-left: 16px;
+        /* Mueve las imágenes hacia la derecha */
+        margin-top: 8px;
+        /* Agrega margen superior */
+    }
+
+    a {
+        display: flex;
+        float: left;
+        text-decoration: none;
+        color: #000;
+        margin: 10px;
+        margin-top: 80px;
+    }
+    
+}
