@@ -11,8 +11,8 @@ export const App = () => {
     {/* Historias */}
     <Stories/>
     {/* Contenido */}
-    <Instagram_contenido userImg='src\img\Mojitos.jpg' userName='francis01' descImg='Foto del usuario Francis' date='1h' comment='La mujer mas buena' contentRoot='src\img\rafaella-mendes.jpg' descImgContent='Foto de la novia de Francis'/>
-    {/* <Instagram_contenido userImg='src\img\barra.jpg' userName='Ángel Coste' descImg='Foto del usuario Ángel Coste' date='5h' contentRoot='src\img\bebida.jpg' descImgContent='Foto de bebida alcoholica'/> */}
+    {/* <Instagram_contenido userImg='src\img\Mojitos.jpg' userName='francis01' descImg='Foto del usuario Francis' date='1h' comment='La mujer mas buena' contentRoot='src\img\rafaella-mendes.jpg' descImgContent='Foto de la novia de Francis'/> */}
+    <Instagram_contenido userImg='src\img\barra.jpg' userName='Ángel Coste' descImg='Foto del usuario Ángel Coste' date='5h' contentRoot='src\img\bebida.jpg' descImgContent='Foto de bebida alcoholica'/>
     {/* Sugerencias para ti */}
     <div className='sugerencias'>
     <img src='src/img/Pic_profile.png' alt="Imagen de usuario" className="user-img"/>
