@@ -14,7 +14,7 @@ export const Instagram_suggets = ({ userImg, name, userName }) => {
 
   return (
     <div className="sugerencias">
-      <img src={require({userImg}).default} alt="" />
+      <img src={userImg} alt="" />
       <h5>{name}</h5>
       <span>@{userName}</span>
       <a href='#' className='followCard-button' onClick={handleClick}>{text}</a>

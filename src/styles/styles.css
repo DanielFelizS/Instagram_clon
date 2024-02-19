@@ -12,7 +12,7 @@ nav {
 nav .vertical-line {
   position: fixed;
   margin-top: 0;
-  margin-left: 13%;
+  margin-left: 15%;
   height: 100%;
   width: 2px;
   background-color: black;
@@ -48,8 +48,8 @@ nav #Titulo-nav {
 }
 
 .historias {
-  margin-top: -710px;
-  margin-left: 27%;
+  margin-top: -760px;
+  margin-left: 20%;
 }
 .historias img {
   position: absolute;
@@ -82,6 +82,7 @@ nav #Titulo-nav {
   width: 92%;
   margin-bottom: 10px;
   height: 87%;
+  border-radius: 4px;
 }
 .container .user {
   width: 50px;
@@ -104,13 +105,23 @@ nav #Titulo-nav {
 
 .media {
   position: absolute;
-  width: 30%;
+  width: 33%;
   height: 70%;
   margin-left: 28%;
   margin-top: 49%;
 }
+.media .iconContenido {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.media .iconContenido:hover,
+.media .bookMark:hover {
+  color: rgb(63, 63, 63);
+}
 .media .bookMark {
-  margin-left: 81%;
+  font-size: 20px;
+  margin-left: 75%;
 }
 
 .sugerencias {
@@ -123,7 +134,7 @@ nav #Titulo-nav {
   position: relative;
   width: 60px;
   height: 60px;
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 100%;
 }
 .sugerencias h2 {
@@ -132,14 +143,14 @@ nav #Titulo-nav {
 .sugerencias h5 {
   position: inherit;
   flex-direction: column;
-  margin-top: -50px;
+  margin-top: -55px;
   margin-left: 68px;
 }
 .sugerencias span {
   position: inherit;
-  color: #867777;
+  color: #5c5858;
   flex-direction: column;
-  margin-top: -14px;
+  margin-top: -18px;
   margin-left: 68px;
 }
 .sugerencias a {
@@ -147,7 +158,7 @@ nav #Titulo-nav {
   text-decoration: none;
   flex-direction: column;
   margin-top: -32px;
-  margin-left: 80%;
+  margin-left: 75%;
   cursor: pointer;
 }
 .sugerencias .followCard-button:hover {
@@ -157,6 +168,6 @@ nav #Titulo-nav {
   color: #444040;
   text-decoration: none;
   flex-direction: column;
-  margin-top: -34px;
-  margin-left: 80%;
+  margin-top: -38px;
+  margin-left: 75%;
 }/*# sourceMappingURL=styles.css.map */

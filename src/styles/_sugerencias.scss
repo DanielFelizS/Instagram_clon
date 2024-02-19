@@ -8,7 +8,7 @@
       position: relative;
       width: 60px;
       height: 60px;
-      margin-top: 20px;
+      margin-top: 25px;
       border-radius: 100%;
     }
   
@@ -19,15 +19,15 @@
     h5 {
       position: inherit;
       flex-direction: column;
-      margin-top: -50px;
+      margin-top: -55px;
       margin-left: 68px;
     }
   
     span {
       position: inherit;
-      color: #867777;
+      color: #5c5858;
       flex-direction: column;
-      margin-top: -14px;
+      margin-top: -18px;
       margin-left: 68px;
     }
   
@@ -36,7 +36,7 @@
       text-decoration: none;
       flex-direction: column;
       margin-top: -32px;
-      margin-left: 80%;
+      margin-left: 75%;
       cursor: pointer;
     }
     .followCard-button:hover{
@@ -46,7 +46,7 @@
       color: #444040;
       text-decoration: none;
       flex-direction: column;
-      margin-top: -34px;
-      margin-left: 80%;
+      margin-top: -38px;
+      margin-left: 75%;
     }
   }

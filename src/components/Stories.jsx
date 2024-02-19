@@ -1,16 +1,18 @@
 /* eslint-disable no-undef */
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import Instagram_stories from './Instagram-stories';
 
 const InstagramStories = () => {
   return (
     <>
-      <img src={require('src/img/ian-dooley.jpg').default} alt="Ian Dooley" />
-      <img src={require('src/img/bebida.jpg').default} alt="Cerveza Abi" />
-      <img src={require('src/img/Bitcoin.png').default} alt="Satoshi Nakamoto" />
-      <img src={require('src/img/joseph-gonzalez.jpg').default} alt="Joseph Gonzalez" />
-      <img src={require('src/img/rafaella-mendes.jpg').default} alt="Rafaella Mendes" />
-      <img src={require('src/img/barra.jpg').default} alt="Angel Coste" />
+      <Instagram_stories userImg={'/img/ian-dooley.jpg'} userName="Ian Doo..." />
+      <Instagram_stories userImg={'/img/bebida.jpg'} userName="Cervez..." />
+      <Instagram_stories userImg={'/img/Bitcoin.png'} userName="Satoshi..." />
+      <Instagram_stories userImg={'/img/joseph-gonzalez.jpg'} userName="Joseph..." />
+      <Instagram_stories userImg={'/img/rafaella-mendes.jpg'} userName="Rafaella..." />
+      <Instagram_stories userImg={'/img/michael-dam.jpg'} userName="Michael..." />
+      <Instagram_stories userImg={'/img/barra.jpg'} userName="Angel Coste" />
     </>
   );
 };
